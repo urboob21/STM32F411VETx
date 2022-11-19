@@ -4,7 +4,7 @@
 // Read Usermanual , Reference Manual and Device Summary STM32xx
 
 Update:
-  17/11/2022: Clock config , GPIO IN/OUT State , EXTI
-  18/11/2022: Timer , Timer Interrupt
+ /n 17/11/2022: Clock config , GPIO IN/OUT State , EXTI
+ /n18/11/2022: Timer , Timer Interrupt
   
   
