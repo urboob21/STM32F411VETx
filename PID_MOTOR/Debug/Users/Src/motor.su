@@ -1,0 +1,7 @@
+../Users/Src/motor.c:29:6:MotorInit	8	static
+../Users/Src/motor.c:41:6:MotorTuning	32	static
+../Users/Src/motor.c:60:6:MotorStop	4	static
+../Users/Src/motor.c:65:6:MotorSetDuty	16	static
+../Users/Src/motor.c:79:10:ConvertDegToPulse	24	static
+../Users/Src/motor.c:86:10:ConvertPulseToDeg	24	static
+../Users/Src/motor.c:92:6:MotorGetPulse	16	static

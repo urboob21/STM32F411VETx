@@ -1,0 +1,2 @@
+../Users/Src/gpio.c:9:7:MX_GPIO_Init	40	static
+../Users/Src/gpio.c:31:7:MX_DMA_Init	16	static

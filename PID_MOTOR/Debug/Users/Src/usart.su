@@ -1,0 +1,7 @@
+../Users/Src/usart.c:27:6:HAL_UART_RxCpltCallback	16	static
+../Users/Src/usart.c:35:6:HAL_UART_TxCpltCallback	16	static
+../Users/Src/usart.c:43:6:StrCompare	32	static
+../Users/Src/usart.c:55:6:UsartReceiveIT	8	static
+../Users/Src/usart.c:61:6:UsartWriteComm	424	static
+../Users/Src/usart.c:82:6:UsartReadComm	16	static
+../Users/Src/usart.c:94:6:MX_USART2_UART_Init	8	static

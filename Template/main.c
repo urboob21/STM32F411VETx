@@ -14,10 +14,10 @@ int main(void)
 	init_exti();
 	while(1)
 	{
-		//GPIOD->BSRR|=(1<<12);
-		//delay(2000000);
-		//GPIOD->BSRR|=((1<<12)<<16);
-	//	delay(2000000);
+		GPIOD->BSRR|=(1<<12);
+		delay(2000000);
+		GPIOD->BSRR|=((1<<12)<<16);
+		delay(2000000);
 	}
 }
 void delay(uint32_t t)
