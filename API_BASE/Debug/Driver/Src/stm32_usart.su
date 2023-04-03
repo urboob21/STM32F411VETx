@@ -1,0 +1,8 @@
+../Driver/Src/stm32_usart.c:12:6:GPIO_USART2_Init	32	static
+../Driver/Src/stm32_usart.c:38:6:USART2_Init	16	static
+../Driver/Src/stm32_usart.c:63:6:USART2_Transmit_1byte	16	static
+../Driver/Src/stm32_usart.c:73:6:USART2_Transmit_string	24	static
+../Driver/Src/stm32_usart.c:78:9:USART2_Received_1byte	16	static
+../Driver/Src/stm32_usart.c:86:6:USART2_Received_string	32	static
+../Driver/Src/stm32_usart.c:92:6:USART2_IT_Received_Init	4	static,ignoring_inline_asm
+../Driver/Src/stm32_usart.c:105:6:USART2_IRQHandler	8	static

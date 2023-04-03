@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"stm_canbus\startup_stm32f103xb.o"
+"stm_canbus\main.o"
+"stm_canbus\stm32f1xx_it.o"
+"stm_canbus\stm32f1xx_hal_msp.o"
+"stm_canbus\stm32f1xx_hal_gpio_ex.o"
+"stm_canbus\stm32f1xx_hal_can.o"
+"stm_canbus\stm32f1xx_hal.o"
+"stm_canbus\stm32f1xx_hal_rcc.o"
+"stm_canbus\stm32f1xx_hal_rcc_ex.o"
+"stm_canbus\stm32f1xx_hal_gpio.o"
+"stm_canbus\stm32f1xx_hal_dma.o"
+"stm_canbus\stm32f1xx_hal_cortex.o"
+"stm_canbus\stm32f1xx_hal_pwr.o"
+"stm_canbus\stm32f1xx_hal_flash.o"
+"stm_canbus\stm32f1xx_hal_flash_ex.o"
+"stm_canbus\stm32f1xx_hal_exti.o"
+"stm_canbus\stm32f1xx_hal_tim.o"
+"stm_canbus\stm32f1xx_hal_tim_ex.o"
+"stm_canbus\stm32f1xx_hal_uart.o"
+"stm_canbus\system_stm32f1xx.o"
+--strict --scatter "STM_CANbus\STM_CANbus.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM_CANbus.map" -o STM_CANbus\STM_CANbus.axf
